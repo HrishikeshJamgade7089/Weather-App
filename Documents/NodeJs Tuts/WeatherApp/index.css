@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 7%;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);;
+    /* overflow: hidden; */
+    color: #f2f2f2;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 4px solid black;
+    padding: 5%;
+    border-radius: 2rem;
+    background-color: rgb(181, 238, 254);
+} */
+.container{
+    top: -32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 60vh;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 1.5rem rgb(0 0 0 / 50%);
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    min-width: 20rem;
+    min-height: 35rem;
+    box-sizing: border-box;
+    padding: 20% 0;
+}
+
+.upperPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.upperPart h3{
+    font-size: 4rem;
+    /* padding: 2% 0; */
+}
+.upperPart h2{
+    font-size: 5rem;
+    /* padding: 2% 0; */
+    margin: 0;
+}
+
+.weather_icon i{
+    font-size: 500%;
+    padding: 30% 0;
+}
+
+.quote h2{
+    font-size: 3rem;
+    padding: 2% 0;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2% 0;
+    font-size: 1.2rem;
+}
+
+.info p{
+    padding: 2% 0;
+}
+
+
